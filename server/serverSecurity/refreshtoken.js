@@ -2,7 +2,7 @@ const axios = require('axios')
 require('dotenv').config()
 
 const refreshToken = async (connectionId, token) => {
-  const query = `${process.env.URLAPI}/mhub-refreshFs`
+  const query = `${process.env.URLAPI}mhub-refreshSf`
   const options = {
     headers: {
       Authorization: `Bearer ${token}`,
